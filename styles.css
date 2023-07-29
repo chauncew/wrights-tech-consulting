@@ -322,7 +322,6 @@ html {
 
 .expertise__info {
   background: #fff;
-  /* margin-top: 50px; */
   grid-column: 2 / 8;
   grid-row: 8 / 18;
   padding: 0 10px;
@@ -464,18 +463,7 @@ footer {
   font-size: clamp(1.3rem, 1.6vw, 1.7rem);
 }
 
-@media {
-  .expertise {
-    grid-template-rows: repeat(12, 4rem);
-  }
-  .expertise__info {
-    background: #fff;
-    grid-column: 2 / 8;
-    grid-row: 8 / 18;
-    padding: 0 10px;
-  }
-}
-
+/* Media Queries */
 @media (min-width: 700px) {
   .header__section {
     display: grid;
